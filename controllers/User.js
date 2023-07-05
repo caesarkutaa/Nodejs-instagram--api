@@ -1,3 +1,5 @@
+
+
 // @ts-nocheck
 const User = require('../models/User')
 const { StatusCodes } = require('http-status-codes');
@@ -149,7 +151,7 @@ const forgetpassword = async(req,res)=>{
   // Generate reset token
   const resetToken = user.createjwt();
 
-      const URL = `http://localhost:3023/api/v1//user/reset-password/${resetToken}`
+      const URL = `http://localhost:8800/api/v1/user/reset-password/${resetToken}`
        console.log(URL);
          transporter.sendMail({
            to:email,
