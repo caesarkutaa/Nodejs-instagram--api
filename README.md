@@ -102,9 +102,6 @@ Example Error Response:
 }
 ```
 
-## Rate Limiting
-
-The API has rate limits in place to prevent abuse. Ensure that you adhere to the rate limits defined by the API.
 
 ## Conclusion
 
